@@ -7,7 +7,9 @@
 [app prerequisites](lab-prerequisites-app.md)
 
 
-# Labs
+## GitLab 사용 가이드 문서
+
+## Jenkins 사용 가이드 문서
 TODO
 
 *The End of this lab*
