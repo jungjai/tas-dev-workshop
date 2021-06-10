@@ -7,12 +7,43 @@
 [app prerequisites](lab-prerequisites-app.md)
 
 
-## GitLab 사용 가이드 문서
-https://docs.gitlab.com/12.10/ee/README.html
+## GitLab Group/Sub Group/Project 관리
+https://docs.gitlab.com/12.10/ee/user/group/
+https://docs.gitlab.com/12.10/ee/user/project/
 
 ## Jenkins 사용 가이드 문서
 https://www.jenkins.io/doc/
 
+### git config 설정
+```
+git config --global user.name "<name>"
+git config --global user.email "<email>"
+```
+
+### git config 확인
+```
+git config --list
+```
+
+### git clone
+```
+git clone <clone URL>
+```
+
+### git add
+```
+git add  
+```
+
+### git commit
+```
+git commit -m "<message>"  
+```
+
+### git push
+```
+git push -u   
+```
 
 *The End of this lab*
 
