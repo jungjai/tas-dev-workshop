@@ -7,13 +7,13 @@
 [app prerequisites](lab-prerequisites-app.md)
 
 
-## GitLab Group/Sub Group/Project 관리
-https://docs.gitlab.com/12.10/ee/user/group/
-https://docs.gitlab.com/12.10/ee/user/project/
+## GitLab 사용 가이드 문서
+https://docs.gitlab.com/12.10/ee
 
 ## Jenkins 사용 가이드 문서
 https://www.jenkins.io/doc/
 
+## GitLab CLI 사용법
 ### git config 설정
 ```
 git config --global user.name "<name>"
