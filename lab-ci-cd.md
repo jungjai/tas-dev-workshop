@@ -10,8 +10,6 @@
 ## GitLab 사용 가이드 문서
 https://docs.gitlab.com/12.10/ee
 
-## Jenkins 사용 가이드 문서
-https://www.jenkins.io/doc/
 
 ## GitLab CLI 사용법
 ### git config 설정
@@ -44,6 +42,9 @@ git commit -m "<message>"
 ```
 git push -u   
 ```
+
+## Jenkins 사용 가이드 문서
+https://www.jenkins.io/doc/
 
 *The End of this lab*
 
