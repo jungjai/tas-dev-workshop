@@ -12,17 +12,6 @@ https://docs.gitlab.com/12.10/ee
 
 
 ## GitLab CLI 사용법
-### git config 설정
-```
-git config --global user.name "<name>"
-git config --global user.email "<email>"
-```
-
-### git config 확인
-```
-git config --list
-```
-
 ### git clone
 ```
 git clone <clone URL>
