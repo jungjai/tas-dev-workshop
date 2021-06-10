@@ -33,7 +33,7 @@ git commit -m "<message>"
 ### git push
 git push는 원격 저장소(remote repository)에 코드 변경분을 업로드하기 위해서 사용
 ```
-git push -u <저장소명> <>
+git push -u <저장소명> <브랜치명>
 ```
 
 ## Jenkins 사용 가이드 문서
