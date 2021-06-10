@@ -13,22 +13,25 @@ https://docs.gitlab.com/12.10/ee
 
 ## GitLab CLI 사용법
 ### git clone
-clone 명령어를 통해 원하는 프로젝트를 내려받을 수 있습니다.
+git clone은 원하는 프로젝트를 내려받기 위해서 사용
 ```
 git clone <clone URL>
 ```
 
 ### git add
+add는 작업 디렉토리(working directory) 상의 변경 내용을 스테이징 영역(staging area)에 추가하기 위해서 사용
 ```
 git add  
 ```
 
 ### git commit
+git commit 명령어는 로컬 저장소(local repository)에 코드 변경 이력을 남기기 위해서 사용
 ```
 git commit -m "<message>"  
 ```
 
 ### git push
+git push는 원격 저장소(remote repository)에 코드 변경분을 업로드하기 위해서 사용
 ```
 git push -u   
 ```
