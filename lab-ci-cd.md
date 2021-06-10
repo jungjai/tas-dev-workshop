@@ -13,6 +13,7 @@ https://docs.gitlab.com/12.10/ee
 
 ## GitLab CLI 사용법
 ### git clone
+clone 명령어를 통해 원하는 프로젝트를 내려받을 수 있습니다.
 ```
 git clone <clone URL>
 ```
