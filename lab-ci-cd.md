@@ -8,8 +8,10 @@
 
 
 ## GitLab 사용 가이드 문서
+https://docs.gitlab.com/12.10/ee/README.html
 
 ## Jenkins 사용 가이드 문서
+https://www.jenkins.io/doc/
 TODO
 
 *The End of this lab*
