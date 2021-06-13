@@ -15,10 +15,13 @@
 
 ![image](https://user-images.githubusercontent.com/85478109/121808627-5b110400-cc94-11eb-862a-e04f4c1d27c0.png)
 
-### 2. Jenkins Pipeline 스크립트 작성
-- GitLab 소스 다운로드
-- Application 빌드 
-- 컨테이너 배포
+### 2. Jenkins 환경 변수 설정
+Jenkins Pipeline은 환경 변수 설정을 통해 중복되는 특정 파일의 경로나, 특수한 값에 대해 설정하여 보다 간편하게 수행가능 합니다. 이번 CI/CD장에서 수행하는 Pipeline에 필요한 환경변수에 대해 설정하도록 합니다.
+- GitLab 계정 설정
+- Java 경로 설정
+- Gradle 경로 설정
+- Maven 경로 설정
+- cf cli 경로 설정
 
 
 
