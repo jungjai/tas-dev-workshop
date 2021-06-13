@@ -22,6 +22,31 @@
 
 ### 2. Pipeline 스크립트 작성
 scripted 문법은 쉘 스크립트를 짜듯이 자유롭게 Pipeline을 구성할 수 있도록 지원합니다. Scripted 문법은 Groovy 문법을 사용합니다. Scripted 문법을 사용하여 자동 빌드 환경을 구성합니다.
+
+- maven build
+```
+node('USER01') { //작업할 node명을 기입합니다
+    
+   stage('GitLab repository Download') { 
+        git branch: 'dev', credentialsId: 'edu1', url: 'http://192.168.150.191:18080/edu01/test/test.git'
+   }
+
+   stage('Application Build') { 
+       sh '$mvn install'       
+   }
+
+   stage('TAS Deploy') {
+       sh 'cf push'
+   }
+
+	stage('Directory delete') {
+       deleteDir()
+   }
+
+}
+```
+
+- gradle build
 ```
 node('USER01') { //작업할 node명을 기입합니다
     
@@ -30,12 +55,11 @@ node('USER01') { //작업할 node명을 기입합니다
    }
 
    stage('Application Build') {
-       sh '$gradle -v'   
-       sh '$mvn -v'       
+       sh '$gradle build'     
    }
 
    stage('TAS Deploy') {
-       sh 'cf -v'
+       sh 'cf push'
    }
 
 	stage('Directory delete') {
