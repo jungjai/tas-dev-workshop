@@ -21,6 +21,7 @@
 ![image](https://user-images.githubusercontent.com/85478109/121808627-5b110400-cc94-11eb-862a-e04f4c1d27c0.png)
 
 ### 2. Pipeline 스크립트 작성
+scripted 문법은 쉘 스크립트를 짜듯이 자유롭게 Pipeline을 구성할 수 있도록 지원합니다. Scripted 문법은 Groovy 문법을 사용합니다. Scripted 문법을 사용하여 자동 빌드 환경을 구성합니다.
 ```
 node('USER01') {
     
