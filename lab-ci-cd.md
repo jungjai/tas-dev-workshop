@@ -16,6 +16,9 @@
 ![image](https://user-images.githubusercontent.com/85478109/121808627-5b110400-cc94-11eb-862a-e04f4c1d27c0.png)
 
 ### 2. Jenkins Pipeline 스크립트 작성
+- GitLab 소스 다운로드
+- Application 빌드 
+- 컨테이너 배포
 
 
 
