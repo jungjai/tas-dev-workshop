@@ -51,7 +51,8 @@ Jenkins와 GitLab 연동을 위해 Credential을 등록합니다.
 ![image](https://user-images.githubusercontent.com/85478109/121811039-feb2e200-cc9d-11eb-9c02-c0969ee9147b.png)
 
 #### 2) Domain(global)을 선택
-![image](https://user-images.githubusercontent.com/85478109/121811115-46396e00-cc9e-11eb-9c72-bd0fbc57fd85.png)
+![image](https://user-images.githubusercontent.com/85478109/121811200-a3cdba80-cc9e-11eb-8d96-40b5b7a7c37d.png)
+
 
 
 ### 4. Jenkins 환경 변수 설정
