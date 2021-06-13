@@ -8,14 +8,12 @@
 - [build환경 구성](lab-developing-spring-boot-app.md)
 - GitLab 소스 업로드(https://docs.gitlab.com/12.10/ee)
 
-## Jenkins Pipeline 단계 설명
+## Jenkins Pipeline 단계
 - 1단계 : GitLab과 연동하여 필요한 프로젝트 다운로드
 - 2단계 : Application 빌드(maven, gradle)
 - 3단계 : cf cli를 사용하여 컨테이너 배포
 
 ## Jenkins Pipeline 생성 및 환경 변수 설정
-
-
 ### 1. Jenkins Pipeline 생성
 **새 작업** 항목을 선택하고, **item name**을 입력합니다. 그리고, **Pipeline**를 선택해서 새로운 job을 생성합니다.
 
