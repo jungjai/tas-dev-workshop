@@ -93,11 +93,22 @@ Jenkins Pipeline은 환경 변수 설정을 통해 중복되는 특정 파일의
 #### Pipeline이 동작하는 NODE를 선택하고, 스크립트에 작성되어 있는 변수명을 참조하여 환경 변수 설정
 ![image](https://user-images.githubusercontent.com/85478109/121811522-a7ae0c80-cc9f-11eb-8041-89e62f60b372.png)
 
+## Jenkins Pipeline 실행
+**Build Now** 항목을 선택하여 Pipeline 실행합니다.
+![image](https://user-images.githubusercontent.com/85478109/121811953-0e7ff580-cca1-11eb-8d8a-924caa7a846f.png)
 
 
 
+## Jenkins Pipeline 결과 및 로그 확인
+### 1. Jenkins Pipeline결과
+**Stage View** 화면을 통해 각 스테이지에서 소요된 시간과 성공여부를 확인할 수 있습니다.
+![image](https://user-images.githubusercontent.com/85478109/121812166-d2996000-cca1-11eb-8988-e86c5c61df8e.png)
 
+### 2. Jenkins 로그 확인
+각 스테이지별로 상세 로그가 보고 싶으시면 경우 해당 스테이지를 선택하고 **Log** 버튼을 선택하여 확인할 수 있습니다.
+![image](https://user-images.githubusercontent.com/85478109/121812239-17bd9200-cca2-11eb-8df7-f85c9fa75a90.png)
 
-*The End of this lab*
+![image](https://user-images.githubusercontent.com/85478109/121812227-0f655700-cca2-11eb-99fa-88c4865477f3.png)
+
 
 ---
