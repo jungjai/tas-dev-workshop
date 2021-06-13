@@ -12,6 +12,7 @@
 - 1단계 : GitLab과 연동하여 필요한 프로젝트 다운로드
 - 2단계 : Application 빌드(maven, gradle)
 - 3단계 : cf cli를 사용하여 컨테이너 배포
+- 4단계 : Pipeline 작업 디렉토리 삭제
 
 ## Jenkins Pipeline 생성 및 환경 변수 설정
 ### 1. Jenkins Pipeline 생성
@@ -19,9 +20,33 @@
 
 ![image](https://user-images.githubusercontent.com/85478109/121808627-5b110400-cc94-11eb-862a-e04f4c1d27c0.png)
 
+### 2. Pipeline 스크립트 작성
+```
+node('USER01') {
+    
+   stage('GitLab repository Download') { 
+        git branch: 'dev', credentialsId: 'edu1', url: 'http://192.168.150.191:18080/edu01/test/test.git'
+   }
+
+   stage('Application Build') {
+       sh '$gradle -v'   
+       sh '$mvn -v'       
+   }
+
+   stage('TAS Deploy') {
+       sh 'cf -v'
+   }
+
+	stage('Directory delete') {
+       deleteDir()
+   }
+
+}
+```
+
 ### 3. GitLab Credential 추가하기
 
-### 2. Jenkins 환경 변수 설정
+### 4. Jenkins 환경 변수 설정
 Jenkins Pipeline은 환경 변수 설정을 통해 중복되는 특정 파일의 경로나, 특수한 값에 대해 설정하여 보다 간편하게 수행가능 합니다. 이번 CI/CD장에서 수행하는 Pipeline에 필요한 환경변수에 대해 설정하도록 합니다.
 - Java 
 - Gradle
