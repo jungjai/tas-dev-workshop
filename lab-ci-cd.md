@@ -9,7 +9,7 @@
 - GitLab 소스 업로드(https://docs.gitlab.com/12.10/ee)
 
 ## Jenkins Pipeline 단계
-- 1단계 : GitLab과 연동하여 필요한 프로젝트 다운로드
+- 1단계 : GitLab 프로젝트 다운로드
 - 2단계 : Application 빌드(maven, gradle)
 - 3단계 : cf cli를 사용하여 컨테이너 배포
 - 4단계 : Pipeline 작업 디렉토리 삭제
