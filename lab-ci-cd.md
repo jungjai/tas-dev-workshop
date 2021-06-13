@@ -65,9 +65,8 @@ Jenkins와 GitLab 연동을 위해 Credential을 등록합니다.
 Jenkins Pipeline은 환경 변수 설정을 통해 중복되는 특정 파일의 경로나, 특수한 값에 대해 설정하여 보다 간편하게 수행가능 합니다. 이번 CI/CD장에서 수행하는 Pipeline에 필요한 환경변수에 대해 설정하도록 합니다.
 - Gradle
 - Maven
-- cf CLI<br>
-Pipeline이 동작하는 **NODE**를 선택하고, 스크립트에 작성되어 있는 변수명을 참조하여 **환경 변수**를 설정합니다.
-
+- cf CLI
+####Pipeline이 동작하는 NODE를 선택하고, 스크립트에 작성되어 있는 변수명을 참조하여 환경 변수 설정
 ![image](https://user-images.githubusercontent.com/85478109/121811522-a7ae0c80-cc9f-11eb-8041-89e62f60b372.png)
 
 
