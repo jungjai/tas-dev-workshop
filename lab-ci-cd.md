@@ -11,9 +11,12 @@
 ## Jenkins Pipeline 생성 및 환경 변수 설정
 
 ### 1. Jenkins Pipeline 생성
-**새 작업** 항목을 선택하고, **item name**을 입력합니다. 그리고, **Pipeline**를 선택해서 새로운 job을 생성해 보겠습니다.
+**새 작업** 항목을 선택하고, **item name**을 입력합니다. 그리고, **Pipeline**를 선택해서 새로운 job을 생성합니다.
 
 ![image](https://user-images.githubusercontent.com/85478109/121808627-5b110400-cc94-11eb-862a-e04f4c1d27c0.png)
+
+### 2. Jenkins Pipeline 스크립트 작성
+
 
 
 
