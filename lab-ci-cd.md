@@ -46,6 +46,10 @@ node('USER01') {
 ```
 
 ### 3. GitLab Credential 추가하기
+Jenkins와 GitLab 연동을 위해 Credential을 등록합니다.
+#### Jenkins 관리 항목을 선택하고, Security 부분의 manage credentials를 선택합니다.
+![image](https://user-images.githubusercontent.com/85478109/121810992-d4612480-cc9d-11eb-8c93-87990eb6e3e1.png)
+
 
 ### 4. Jenkins 환경 변수 설정
 Jenkins Pipeline은 환경 변수 설정을 통해 중복되는 특정 파일의 경로나, 특수한 값에 대해 설정하여 보다 간편하게 수행가능 합니다. 이번 CI/CD장에서 수행하는 Pipeline에 필요한 환경변수에 대해 설정하도록 합니다.
