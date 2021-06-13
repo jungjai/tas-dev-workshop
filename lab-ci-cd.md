@@ -66,7 +66,7 @@ Jenkins Pipeline은 환경 변수 설정을 통해 중복되는 특정 파일의
 - Gradle
 - Maven
 - cf CLI
-Pipeline이 동작하는 **NODE**를 선택하고, 스크립트에 작성되어 있는 변수명을 참조하여 **환경 변수**를 설정합니다.
+<br>Pipeline이 동작하는 **NODE**를 선택하고, 스크립트에 작성되어 있는 변수명을 참조하여 **환경 변수**를 설정합니다.
 ![image](https://user-images.githubusercontent.com/85478109/121811522-a7ae0c80-cc9f-11eb-8041-89e62f60b372.png)
 
 
