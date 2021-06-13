@@ -19,7 +19,7 @@
 
 ![image](https://user-images.githubusercontent.com/85478109/121808627-5b110400-cc94-11eb-862a-e04f4c1d27c0.png)
 
-### 2. GitLab Credential 추가하기
+### 3. GitLab Credential 추가하기
 
 ### 2. Jenkins 환경 변수 설정
 Jenkins Pipeline은 환경 변수 설정을 통해 중복되는 특정 파일의 경로나, 특수한 값에 대해 설정하여 보다 간편하게 수행가능 합니다. 이번 CI/CD장에서 수행하는 Pipeline에 필요한 환경변수에 대해 설정하도록 합니다.
