@@ -1,7 +1,7 @@
 
 
 # CI/CD(GitLab/Jenkins)
-이번 CI/CD 장에서는 Jenkins Pipeline을 사용하여 소스를 build하고 TAS 컨테이너를 배포하는 과정에 대해 설명합니다.
+이번 CI/CD 장에서는 Jenkins pipeline을 활용하여 자동 빌드 환경을 구성해 보도록 하겠습니다. pipeline이란 말 그대로 파이프를 이어 붙인것과 같은 형태로 Step by Step 형식의 각 단계를 이어 붙여 실행하는 방식입니다. 이를 적용하면, Continuous Delivery & Continuous Deploy 손쉽게 구현할 수 있습니다.
 
 ## Prerequisites
 - [app prerequisites](lab-prerequisites-app.md)
