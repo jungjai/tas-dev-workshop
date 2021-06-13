@@ -48,7 +48,7 @@ node('USER01') {
 ### 3. GitLab Credential 추가하기
 Jenkins와 GitLab 연동을 위해 Credential을 등록합니다.
 #### Jenkins 관리 항목을 선택하고, Security 부분의 manage credentials를 선택합니다.
-![image](https://user-images.githubusercontent.com/85478109/121810992-d4612480-cc9d-11eb-8c93-87990eb6e3e1.png)
+![image](https://user-images.githubusercontent.com/85478109/121811039-feb2e200-cc9d-11eb-9c02-c0969ee9147b.png)
 
 
 ### 4. Jenkins 환경 변수 설정
