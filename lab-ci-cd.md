@@ -28,14 +28,15 @@ scripted 문법은 쉘 스크립트를 짜듯이 자유롭게 Pipeline을 구성
 node('USER01') { //작업할 node명을 기입합니다
     
    stage('GitLab repository Download') { 
-        git branch: 'dev', credentialsId: 'edu1', url: 'http://192.168.150.191:18080/edu01/test/test.git'
+        git branch: 'master', credentialsId: 'edu1', url: 'http://192.168.150.191:18080/edu01/test/test.git'
    }
 
    stage('Application Build') { 
-       sh '$mvn install'       
+       sh '$mvn clean package'       
    }
 
    stage('TAS Deploy') {
+       sh 'cf login -a https://api.sys.data.kr -u edu1 -p VMware1! -o edu01 -s test --skip-ssl-validation'
        sh 'cf push'
    }
 
@@ -51,7 +52,7 @@ node('USER01') { //작업할 node명을 기입합니다
 node('USER01') { //작업할 node명을 기입합니다
     
    stage('GitLab repository Download') { 
-        git branch: 'dev', credentialsId: 'edu1', url: 'http://192.168.150.191:18080/edu01/test/test.git'
+        git branch: 'master', credentialsId: 'edu1', url: 'http://192.168.150.191:18080/edu01/test/test.git'
    }
 
    stage('Application Build') {
@@ -59,6 +60,7 @@ node('USER01') { //작업할 node명을 기입합니다
    }
 
    stage('TAS Deploy') {
+       sh 'cf login -a https://api.sys.data.kr -u edu1 -p VMware1! -o edu01 -s test --skip-ssl-validation'
        sh 'cf push'
    }
 
