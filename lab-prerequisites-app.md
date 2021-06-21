@@ -1,29 +1,10 @@
 please check following tools and connectivity.
 
-## source code editor
-An IDE (IntelliJ, Eclipse, VSCode)
-
-## (optional) VPN to the lab environment.
-
-## jumpbox(linux) connectivity
-connect to jumpbox via command line tool or Putty.
-```
-$ ssh ubuntu@JUMPBOX_IP
-```
-
-check architecture (64 bit)
-```
-$ arch
-
-x86_64
-```
-
-switch as root
-```
-sudo su
-```
-
-check installed cli. refer to [app prerequisites](lab-prerequisites-app.md)
+### [lab-env-instruction](lab-env-instruction.md)
+- source code editor: An IDE (IntelliJ, Eclipse, VSCode)
+-  VPN to the lab environment.
+- jumpbox(linux) connectivity: connect to jumpbox via command line tool or Putty.
+- check architecture (64 bit)
 
 
 ## cli from the Jumpbox.
