@@ -1,4 +1,4 @@
-### Seat
+### Seat Number
 ```
 |Instructor|
 |  1 (179)  |  2 (180)  |   3 (181) |
