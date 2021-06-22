@@ -52,12 +52,18 @@ cf login -a api.sys.data.kr --skip-ssl-validation
 - java -version
 
 ### install maven
-- set JAVA_HOME=C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.292-1
-- https://maven.apache.org/install.html 
-- https://maven.apache.org/download.cgi
-- set PATH = C:\Users\YGL\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin
-- mvn 
-
+- https://maven.apache.org/download.cgi apache-maven-3.8.1-bin.zip
+- 탐색기> 내 PC에서 우클릭> 속성> 고급설정> 환경변수> Path
+```
+C:\Users\YGL\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin
+```
+- 탐색기> 내 PC에서 우클릭> 속성> 고급설정> 환경변수>시스템 변수
+```
+JAVA_HOME: C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.292-1
+```
+```
+mvn -v
+```
 ### IDE
 - https://www.jetbrains.com/ko-kr/idea/download/
 - https://start.spring.io/
