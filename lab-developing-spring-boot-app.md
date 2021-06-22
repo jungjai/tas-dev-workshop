@@ -132,15 +132,16 @@ cf login -a https://api.TAS-SYSTEM-DOMAIN-URL -u USERNAME -p PASSWORD -o ORG -s 
 
 ## Push application into Cloud Foundry
 Use cf push --help to determine how to push your app. Be sure to do the following:
-- Name your app roster.
+- Name your app .
 - Push the jar file by providing the ‘-p’ flag pointing to the jar file on your laptop
+- put unique-app-domain-name by providing '-n' flag. 
 - Create one instance(default)
 - Allocate 750M of memory
 - Use the java_buildpack buildpack
 - Use --random-route to avoid route collisions. It appends two random words to the name of your app as a dev tool to help avoid route collisions. DO NOT use this in production.
 
 ```
-cf push APP_NAME -p /PATH/to/the/jar 
+cf push APP_NAME -p /PATH/to/the/jar  -n <unique-app-domain-name>
 
 ```
 *Congratulations!* You’ve just completed your first Spring Boot application.
