@@ -7,7 +7,7 @@
 |  10(188) |  11(189)  | 12((190) |
 ```
 - jumpbox IP: 192.168.150.#Seat
-- gitlab, jenkins, TAS apps manager  id/password: EDU#Seat / VMware1!
+- gitlab, jenkins, TAS apps manager  id/password: EDU#Seat / ----
 
 ### VPN
 https://www.fortinet.com/support/product-downloads
