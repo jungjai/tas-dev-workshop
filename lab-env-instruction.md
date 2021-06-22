@@ -7,7 +7,7 @@
 |  10(188) |  11(189)  | 12((190) |
 ```
 - jumpbox IP: 192.168.150.#Seat
-- gitlab, jenkins, TAS apps manager  id/password: EDU#Seat / ----
+- gitlab, jenkins, TAS apps manager  id/password: edu#Seat / ----
 
 ### VPN
 https://www.fortinet.com/support/product-downloads
@@ -24,7 +24,7 @@ http://192.168.150.191:28080/
 
 
 ### Port forwarding
-C:\Windows\System32\drivers\etc\hosts
+notepad.exe관리자원한으로 열고 C:\Windows\System32\drivers\etc\hosts에 아래 내용 추가.
 ```
 127.0.0.2	apps.sys.data.kr
 127.0.0.2	login.sys.data.kr
@@ -33,15 +33,16 @@ C:\Windows\System32\drivers\etc\hosts
 127.0.0.2  log-cache.sys.data.kr
 127.0.0.2  cloud-native-spring.apps.data.kr
 ```
-
+### cmd 창에서 127.0.0.2: 443를 나의 jumpbox:8443으로 portforwarding
 ```
-netsh interface portproxy add v4tov4 listenport=443 listenaddress=127.0.0.2 connectport=8443 connectaddress=192.168.150.179
+netsh interface portproxy add v4tov4 listenport=443 listenaddress=127.0.0.2 connectport=8443 connectaddress=192.168.150.#seat
 netsh interface portproxy show v4tov4
-netsh interface portproxy delete v4tov4 listenport=443 listenaddress=127.0.0.2
+# netsh interface portproxy delete v4tov4 listenport=443 listenaddress=127.0.0.2
 ```
 
 ### TAS apps manager UI login
-https://apps.sys.data.kr
+- https://apps.sys.data.kr
+- edu#Seat / ----
 
 ### cf cli install: 
 cf login -a api.sys.data.kr --skip-ssl-validation
