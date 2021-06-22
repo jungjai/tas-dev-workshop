@@ -2,7 +2,7 @@
 
 In this lab we'll build and deploy a simple https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/[Spring Boot] application to Cloud Foundry whose sole purpose is to reply with a standard greeting.
 
-optinally, you can reference the [complete sample app on github](https://github.com/myminseok/spring-cloud-sample/tree/master/lab-developing-spring-boot-app/complate)
+optinally, you can reference the [complete sample app on github](https://github.com/myminseok/spring-cloud-sample/tree/master/lab-building-spring-boot-app/complete/cloud-native-spring)
 
 ### Prerequisites
 [app prerequisites](lab-prerequisites-app.md)
