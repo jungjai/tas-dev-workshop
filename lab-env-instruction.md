@@ -49,13 +49,14 @@ cf login -a api.sys.data.kr --skip-ssl-validation
 
 #### JDK install
 - https://github.com/ojdkbuild/ojdkbuild
-- set JAVA_HOME=C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.292-1
 - java -version
 
 ### install maven
+- set JAVA_HOME=C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.292-1
 - https://maven.apache.org/install.html 
 - https://maven.apache.org/download.cgi
 - set PATH = C:\Users\YGL\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin
+- mvn 
 
 ### IDE
 - https://www.jetbrains.com/ko-kr/idea/download/
